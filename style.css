@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    
+}
+
+body {
+    margin: 5px;
+    padding: 0px;
+    background: #007bff;
+    
+    /* position: relative; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-1,.easy-container {
+    text-align: center;
+    /* border: 2px; */
+    /* border-style: solid; */
+    padding: 20px;
+    border-radius: 3px;
+    background: white;
+    width: 500px;
+    
+    /* position: absolute; */
+    
+    -webkit-box-shadow: 3px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container-2,.container-1-5
+{
+    margin-top: 5%;
+}
+
+.bt
+{
+    /* background-color: #fff0b3; */
+    margin-top: 5%;
+}
+
+
+.medium-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* border-radius: 9px; */
+    background: white;
+    width: 500px;
+
+    /* position: absolute; */
+
+    -webkit-box-shadow: 3px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 0px 20px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+#frame001 {
+    
+    background-color: white;
+    /* border: 2px solid black; */
+    height: 350px;
+    width: 450px;
+}
+
+.buttons001 {
+    background-color: dodgerblue;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.buttons002 {
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#font001 {
+    text-align: center;
+    font-size: large;
+    color: black;
+}
